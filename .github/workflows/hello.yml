@@ -9,3 +9,10 @@ jobs:
     steps:
       - name: Say Hello
         run: echo "Hello, GitHub Actions!"
+
+  next:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: HaHa
+        run: echo "Test, HaHa!"
